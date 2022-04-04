@@ -1,5 +1,2 @@
-# batata-bit
-Cryptocurrency landing page project 
-
-# Email
-santiago.alf375@gmail.com
+# Batatabit
+La próxima revolución en el intercambio de criptomodenas.
