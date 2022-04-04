@@ -1,0 +1,157 @@
+doctype html
+| PASTE YOUR HTML CODE HERE
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Batatabit
+  link(href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;900&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='./css/style.css')
+  link(rel='stylesheet' href='./css/tablet.css' media='(min-width: 1024px)')
+header
+  img(src='./assets/img/logo.svg' alt='Logo de Batatabit')
+  .header--title-container
+    h1 La pr&oacute;xima revoluci&oacute;n en el intercambio de criptomodenas.
+    p
+      | Batatabit te ayuda a navegar entre los diferentes precios y
+      | tendencias.
+    a.header--button(href='#plans')
+      | Conoce Nuestros Planes 
+      span
+main
+  section.main-exchange-container
+    .backgroundImg
+    .main-exchange-container--title
+      h2 Visibilizamos todas las tasas de cambio.
+      p
+        | Traemos informaci&oacute;n en tiempo real de las casas de cambio y las
+        | monedas m&aacute;s importantes del mundo.
+    .main-tables-container
+      .main-currency-table
+        p.currency-table--title Monedas
+        .currency-table--container
+          table
+            tr
+              td.table__top-left Bitcon
+              td.table__top-right.table__right
+                | $1.96 
+                span.down
+            tr
+              td Ethereum
+              td.table__right
+                | $0.07 
+                span.up
+            tr
+              td Ripple
+              td.table__right
+                | $2.15 
+                span.down
+            tr
+              td.table__bottom-left Stellar
+              td.table__bottom-right.table__right
+                | $4.96 
+                span.down
+        .currency-table--date
+          p
+            b Actualizado:
+            |  19 Julio 23:45
+      .main-commissions-table
+        p.commissions-table--title Comisiones
+        .commissions-table--container
+          table
+            tr
+              td.table__top-left Bitrade
+              td.table__top-right.table__right $12.96
+            tr
+              td Bitpreco
+              td.table__right $13.07
+            tr
+              td Novadax
+              td.table__right $13.15
+            tr
+              td.table__bottom-left Coinext
+              td.table__bottom-right.table__right $14.96
+        .commissions-table--date
+          p
+            b Actualizado:
+            | 19 Julio 23:48
+  section.main-product-detail
+    span.product-detail--batata-logo
+    .product-detail--title
+      h2 Creamos un producto sin comparaci&oacute;n.
+      p Confiable y dise&ntilde;ado para su uso diario.
+    .product-cards--container
+      article.product-detail--card
+        span.clock
+        p.product--card_title Tiempo real
+        p.product--card_body
+          | Nuestra API toma informaci&oacute;n minuto a minito sobre las tasas que
+          | m&aacute;s determinan el comportamiento.
+      article.product-detail--card
+        span.eye
+        p.product--card_title No hay tasas escondidas
+        p.product--card_body
+          | Ni en la compra o al momento de exit, Batabit siempre te muestra
+          | el costo real de lo que est&aacute;s adquiriendo.
+      article.product-detail--card
+        span.dollar
+        p.product--card_title Compara monedas
+        p.product--card_body
+          | No m&aacute;s rumores, con Batabit sabr&aacute;s el valor real de casa moneda en
+          | el mercado actual.
+      article.product-detail--card
+        span.check
+        p.product--card_title Informaci&oacute;n confiable
+        p.product--card_body
+          | Nuestras fuentes est&aacute;n 100% verificadas y continuamos auditanmdo
+          | su contenido miesntras se actualizan.
+  section.bitcoin-img-container
+    h2 Con&oacute;celo hoy.
+  section#plans.main-plans-container
+    h2 Escoge el plan que mejor se ajuste a ti.
+    p Cualquier plan te da acceso completo a nuestra plataforma.
+    .plans-container--slider
+      .plans-container--card
+        .plan-card
+          h3.plan-card--title Pago Anual
+          p.plan-card--price
+            span $
+            |  99
+          p.plan-card--saving
+            | *Ahorras $129 comparado el plan mensual.
+          button.plan-card--ca
+            | Escoger este 
+            span
+      .plans-container--card
+        p.recommended Recomendado
+        .plan-card
+          h3.plan-card--title Pago Anual
+          p.plan-card--price
+            span $
+            |  99
+          p.plan-card--saving
+            | *Ahorras $129 comparado el plan mensual.
+          button.plan-card--ca
+            | Escoger este 
+            span
+      .plans-container--card
+        .plan-card
+          h3.plan-card--title Pago Anual
+          p.plan-card--price
+            span $
+            |  99
+          p.plan-card--saving
+            | *Ahorras $129 comparado el plan mensual.
+          button.plan-card--ca
+            | Escoger este 
+            span
+footer
+  section.left
+    ul
+      li
+        a(href='') Lindedin
+      li
+        a(href='') Crunchbase
+      li
+        a(href='') Hackernews
+  section.right
+    img(src='./assets/img/logo-footer.svg' alt='Logo Batatabit 2020')
